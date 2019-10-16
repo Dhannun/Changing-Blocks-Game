@@ -12,7 +12,7 @@ import javax.swing.*;
 
 class Blocks implements ActionListener {
 
-    JFrame f1 = new JFrame("Changing Blocks Ver.2.0.0.0");
+    JFrame f1 = new JFrame("Symantec Memory Blocks Ver.2.0.0.0");
 
     JButton b1 = new JButton("?");
     JButton b2 = new JButton("?");
@@ -35,16 +35,16 @@ class Blocks implements ActionListener {
     JButton b19 = new JButton("?");
     JButton b20 = new JButton("?");
 
-    ImageIcon ic1 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-Preferences-Desktop-C-icon.png");
-    ImageIcon ic2 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-preferences-desktop-cryptography-icon.png");
-    ImageIcon ic3 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-preferences-desktop-gaming-icon.png");
-    ImageIcon ic4 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-preferences-desktop-launch-feedback-icon.png");
-    ImageIcon ic5 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-preferences-desktop-remote-desktop-icon.png");
-    ImageIcon ic6 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-preferences-desktop-user-icon.png");
-    ImageIcon ic7 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Apps-preferences-desktop-user-password-icon.png");
-    ImageIcon ic8 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\Folder-Desktop-icon.png");
-    ImageIcon ic9 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\help-desk-icon.png");
-    ImageIcon ic10 = new ImageIcon("E:\\Java Projects\\Testing Program 1\\Image Icons\\preferences-desktop-sound-icon.png");
+    ImageIcon ic1 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-Preferences-Desktop-C-icon.png");
+    ImageIcon ic2 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-preferences-desktop-cryptography-icon.png");
+    ImageIcon ic3 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-preferences-desktop-gaming-icon.png");
+    ImageIcon ic4 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-preferences-desktop-launch-feedback-icon.png");
+    ImageIcon ic5 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-preferences-desktop-remote-desktop-icon.png");
+    ImageIcon ic6 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-preferences-desktop-user-icon.png");
+    ImageIcon ic7 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Apps-preferences-desktop-user-password-icon.png");
+    ImageIcon ic8 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\Folder-Desktop-icon.png");
+    ImageIcon ic9 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\help-desk-icon.png");
+    ImageIcon ic10 = new ImageIcon("E:\\Java Projects\\Symantec Memory Blocks\\Image Icons\\preferences-desktop-sound-icon.png");
 
     Font font1 = new Font("Century", Font.BOLD, 30);
 
@@ -67,7 +67,7 @@ class Blocks implements ActionListener {
         list.add(9);
         list.add(10);
 
-        Test t = new Test();
+        Blocks t = new Blocks();
 
         Collections.shuffle(list);
 
@@ -158,6 +158,7 @@ class Blocks implements ActionListener {
 
     void frameSettings() {
 
+        f1.setIconImage(ic3.getImage());
         f1.add(b1);
         f1.add(b2);
         f1.add(b3);
